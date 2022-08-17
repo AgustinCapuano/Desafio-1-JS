@@ -7,7 +7,7 @@ function compra() {
 
     while(producto != "4") {
 
-    producto = prompt("Que quiere comprar? Ingrese el nombre del producto.\n 1. Torta Oreo $1000.\n 2. Budin de Chocolate $900.\n 3. Chocotorta $1200.\n 4. No quiero nada mas");
+    producto = prompt("Que quiere comprar? Ingrese el numero del producto.\n 1. Torta Oreo $1000.\n 2. Budin de Chocolate $900.\n 3. Chocotorta $1200.\n 4. No quiero nada mas");
 
     switch(producto) {
         case '1':
@@ -32,4 +32,4 @@ function compra() {
 
 }
 
-compra();
+compra(); 
